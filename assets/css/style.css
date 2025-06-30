@@ -1,0 +1,117 @@
+body {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+#todoApp {
+  background: white;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(42, 100, 6, 0.1);
+  padding: 20px 30px;
+}
+h1 {
+  text-align: center;
+  color: #522675;
+}
+#taskInputSection {
+  display: flex;
+  margin-bottom: 20px;
+}
+#taskInput {
+  flex-grow: 1;
+  padding: 10px 14px;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+#taskInput:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+#addTaskBtn {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0 18px;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-size:larger;
+}
+#addTaskBtn:hover {
+  background-color: #0e3c6b;
+}
+#feedback {
+  color: #d9534f;
+  font-size: 14px;
+  margin-bottom: 10px;
+  min-height: 18px;
+  text-align: center;
+}
+ul#taskList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul#taskList li {
+  background: #fafafa;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.05);
+}
+ul#taskList li.editing {
+  background: #fffbe6;
+}
+.taskText {
+  flex-grow: 1;
+  font-size: 16px;
+  word-break: break-word;
+}
+.taskText.editable {
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+button.deleteBtn {
+  color: #d9534f;
+}
+button.deleteBtn:hover {
+  color: #92120e;
+}
+button.editBtn {
+  color: #5bc0de;
+}
+button.editBtn:hover {
+  color: #1280a2;
+}
+button.saveBtn {
+  color: #5cb85c;
+}
+button.saveBtn:hover {
+  color: #288f28;
+}
+button.cancelBtn {
+  color: #f0ad4e;
+}
+button.cancelBtn:hover {
+  color: #c97c11;
+}
