@@ -23,7 +23,7 @@ week4-assignment/ ├── index.html ├── README.md ├── assets/ │
 
 ## 🌐 Live Demo
 
-View the live site here:
+View the live site here: https://jignabahenkalani.github.io/week4-assignment-/
 My github link here: https://github.com/JignabahenKalani
 
 
